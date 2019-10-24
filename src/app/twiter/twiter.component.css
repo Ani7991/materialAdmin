@@ -1,0 +1,45 @@
+.imgName{
+  padding: 11px;
+  display: flex;
+   color: black;
+  justify-content: space-between;
+  align-items: center;
+
+}
+img{
+  height: 50px;
+  border-radius: 50%;
+  padding:13px;
+}
+mat-icon{
+  font-size: 32px;
+  color: rgb(10, 48, 129);
+  margin: 0 14px;
+  cursor: pointer;
+}
+.text{
+  padding: 11px;
+  color: black;
+}
+
+.lists{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(10, 48, 129);
+}
+.lists p{
+  font-size: 14px;
+  font-weight: 400;
+
+}
+.fflex{
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+
+}
+.user{
+  background-color: #fff;
+}

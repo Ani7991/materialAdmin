@@ -1,0 +1,41 @@
+.likeWhatYouSee{
+  margin: 70px 15px;
+  /* border: 1px solid rgb(182, 181, 181); */
+  width: 96%;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+}
+
+.text{
+  padding: 23px 17px;
+}
+
+.buttons{
+  margin-right: 13px;
+}
+
+.border{
+  border: 3px solid #00a9f4;
+  font-size: 13px;
+  color: #00a9f4;
+  background-color: #fff;
+
+}
+
+.noBorder{
+  border: 3px solid #00a9f4;
+  font-size: 13px;
+  background-color: #00a9f4;
+  color:0;
+
+}
+.buttons button{
+  margin: 0 7px;
+  padding: 0 23px;
+}
+p{
+  color:gray;
+}

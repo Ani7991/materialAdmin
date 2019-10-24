@@ -1,0 +1,35 @@
+
+.mat-checkbox{
+  color: gray;
+  margin: 6px;
+}
+
+
+::ng-deep .check .mat-checkbox-frame {
+  border-color: red !important;
+}
+
+::ng-deep .check .mat-checkbox-checked .mat-checkbox-background {
+  background-color: darkcyan !important;
+}
+
+
+.checkbox{
+  margin-top: 23px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.checkboX{
+  padding: 13px;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+  width: 90%;
+  background-color: #fff;
+}
+h3{
+  color: gray;
+}
+.items{
+  color: gray;
+}

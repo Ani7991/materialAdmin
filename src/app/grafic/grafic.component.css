@@ -1,0 +1,12 @@
+.graph{
+  display: flex;
+
+  background-color: rgb(245, 245, 245);
+}
+.graphImg{
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+}
+img{
+  width: 100%;
+  height: 390px;
+}

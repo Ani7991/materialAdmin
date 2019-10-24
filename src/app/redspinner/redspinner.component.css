@@ -1,0 +1,28 @@
+ .spiner{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+ background-color: #fff;
+   margin: 1px 31px;
+   height: 325px;
+
+
+}
+
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 122px;
+  
+}
+
+h2 {
+  color: gray;
+}
+
+.links button{
+  border-radius: 0px;
+}

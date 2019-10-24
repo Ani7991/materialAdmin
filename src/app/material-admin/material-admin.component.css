@@ -1,0 +1,26 @@
+.madmin{
+  /* border: 1px solid rgb(153, 151, 151); */
+  padding: 11px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+}
+.madmin {
+  padding: 17px;
+  margin: 4px;
+  color: gray;
+}
+.mat-icon{
+  padding: 17px;
+  margin: 4px;
+  color: #fff;
+}
+.nameAndNumber{
+  margin: 0 13px;
+  color: gray;
+}
+.nameAndNumber h2{
+  font-size: 29px;
+}

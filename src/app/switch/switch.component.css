@@ -1,0 +1,14 @@
+.switchDiv{
+  background-color: #fff;
+  color: gray;
+  padding: 30px;
+  display: flex;
+  margin-right: 20px;
+    margin-left: 40px;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+}
+
+mat-slide-toggle{
+
+  margin: 50px 30px 17px;
+}

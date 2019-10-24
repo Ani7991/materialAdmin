@@ -1,0 +1,66 @@
+<mat-drawer-container class="menu-container" autosize fixed>
+  <mat-drawer #drawer class="menu-sidenav" mode="side">
+
+
+      <div class = "adminLink">
+          <a href="#">MATERIAL ADMIN</a>
+      </div>
+
+      <mat-list role="list" *ngFor = "let it of items" class = "links">
+
+        <mat-list-item role="listitem" (click) = "isOn(it.name)" class = "mediaButton">
+                <mat-icon>{{it.icon}}</mat-icon>
+                <p class = "name">{{it.name}}</p>
+            </mat-list-item>
+
+
+</mat-list>
+
+      <div class = "pro">
+          <button mat-raised-button color="primary">UPGRATE TO PRO</button>
+      </div>
+
+  </mat-drawer>
+
+
+
+  <div class="menu-sidenav-content">
+    <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+    <app-sidenav style="width: 100%"></app-sidenav>
+</div>
+
+<app-main *ngIf="!open"></app-main>
+
+<div style="display: flex;justify-content:center;flex-wrap: wrap" *ngIf="!open">
+    <app-material-admin-list></app-material-admin-list>
+    <app-redspinner></app-redspinner>
+
+</div>
+
+
+<div style="display: flex;justify-content:center; margin-top: 31px;" *ngIf="!open">
+
+  <app-twitter style="width: 60%;margin:24px;"></app-twitter>
+  <app-grafic style="width: 100%;margin:24px;"></app-grafic>
+
+</div>
+<app-table *ngIf="!open"></app-table>
+
+
+
+
+<div style="display: flex;justify-content:space-around; margin-top: 31px;" *ngIf="open">
+  <app-switch style="width: 80%;"></app-switch>
+  <app-selectmenu style="width: 80%;"></app-selectmenu>
+</div>
+
+<app-textfield *ngIf="open"></app-textfield>
+
+<app-checkbox *ngIf="open"></app-checkbox>
+
+<app-radio *ngIf="open"></app-radio>
+
+
+<app-footer></app-footer>
+
+</mat-drawer-container>

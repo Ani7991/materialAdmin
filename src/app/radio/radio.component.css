@@ -1,0 +1,21 @@
+.mat-checkbox{
+  margin: 6px;
+}
+
+.radio{
+  color: gray;
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.radioDiv{
+  padding: 13px;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.45);
+  width: 90%;
+  background-color: #fff;
+}
+
+mat-radio-button{
+  margin: 6px;
+}

@@ -1,0 +1,10 @@
+.divs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+app-material-admin{
+  width: 47%;
+  margin-bottom: 10px
+}
